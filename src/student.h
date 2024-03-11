@@ -18,4 +18,4 @@ struct StudentData{
 
 /* define function */
 
-void sstudent(void);
+void sstu dent(void);
