@@ -1,4 +1,6 @@
-/* student.c */ #include <stdio.h> #include "student.h"
+/* student.c */ 
+#include <stdio.h> 
+#include "student.h"
 /* Source file with structure * StudentData
 * StudentAddress
 */
@@ -12,8 +14,9 @@ student.stu_age = 45;
 student.stuAddress.street = "4, pr. Nezavisimosti";
 student.stuAddress.state = "Minskaya"; student.stuAddress.city = "Minsk"; student.stuAddress.country = "Belarus";
 /* Displaying the values of struct memeber */
-Листинг 1.
- printf ("Hello, %s!", student.stu_name); printf("\nStudent Id is: %d", student.stu_id); printf("\nStudent Age is: %d", student.stu_age); printf("\n Country %s, Regin %s, City %s, Address
+
+printf ("Hello, %s!", student.stu_name); printf("\nStudent Id is: %d", student.stu_id); printf("\nStudent Age is: %d", student.stu_age); printf("\n Country %s, Regin %s, City %s, Address
 %s", student.stuAddress.country, student.stuAddress.state, student.stuAddress.city, student.stuAddress.street);
-printf ("\nGoodbye!"); return 0;
+printf ("\nGoodbye!"); 
+return 0;
 }
